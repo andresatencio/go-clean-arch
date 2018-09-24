@@ -7,9 +7,9 @@ Este es un ejemplo de implementacion de  Clean Architecture en proyectos Go (Gol
 Reglas de Clean Architecture by Uncle Bob
  * Independiente de frameworks. La arquitectura no depende de ninguna libreria. Esto permite usar los frameworks como herramientas y al revés.
  * Testeable. Las reglas de negocio deben permitirse verficiar sin hacer uso de UI, o base de datos o cualquier entidad externa.
- * Independent of UI. The UI can change easily, without changing the rest of the system. A Web UI could be replaced with a console UI, for example, without changing the business rules.
- * Independent of Database. You can swap out Oracle or SQL Server, for Mongo, BigTable, CouchDB, or something else. Your business rules are not bound to the database.
- * Independent of any external agency. In fact your business rules simply don’t know anything at all about the outside world.
+ * Independiente de la UI. La UI puede cambiar facilmente sin que tenga que cambiar el sistema. La interfaz web podria cambia a una interfaz de terminal sin que esto implique cambiar las reglas de negocio.
+ * Independiente de la base de datos.
+ * Independiente de cualquier entidad externa. Las reglas de negocio no tienen porque conocerlas.
 
 More at https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
 
